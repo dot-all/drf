@@ -81,11 +81,11 @@ DATABASES = {
         'OPTIONS': {
             'options': '-c client_encoding=UTF8',
         },
-        'NAME': '',
-        'USER': '',
-        'PASSWORD': '',
-        'HOST': '',
-        'PORT': '',
+        'NAME': 'django_test',
+        'USER': 'postgres',
+        'PASSWORD': 'postgre',
+        'HOST': 'localhost',
+        'PORT': '5432',
     }
 }
 
